@@ -12,3 +12,42 @@
     font-family: "Poppins 600";
     src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    color: hsl(234, 12%, 34%);
+}
+
+.title {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fs-h1 {
+    font-family: "Poppins 200";
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.fs-h2 {
+    font-family: "Poppins 600";
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.fs-p {
+    font-family: "Poppins 400";
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
