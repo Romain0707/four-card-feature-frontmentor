@@ -16,7 +16,7 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 0 1rem ;
     background-color: #FAFAFA;
     color: hsl(234, 12%, 34%);
     font-family: "Poppins 400", sans-serif;
@@ -109,4 +109,13 @@ header {
 
 .calculator {
     border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+@media screen and (max-width: 780px) {
+    .card-container {
+        flex-direction: column;
+    }
+    body {
+        padding: 2rem;
+    }
 }
