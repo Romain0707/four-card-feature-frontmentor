@@ -29,7 +29,16 @@ header {
     text-align: center;
 }
 
-.title {
+@media screen and (max-width: 780px) {
+    .card-container {
+        flex-direction: column;
+    }
+    body {
+        padding: 2rem;
+    }
+}
+
+.main-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,22 +47,16 @@ header {
     max-width: 35rem;
 }
 
-.fs-h1 {
+h1 {
     font-family: "Poppins 200", sans-serif;
     font-size: 2rem;
     margin: 0;
     padding: 0;
 }
 
-.fs-h2 {
+.main-title h2 {
     font-family: "Poppins 600", sans-serif;
     font-size: 2rem;
-    margin: 0;
-    padding: 0;
-}
-
-.fs-p {
-    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -78,14 +81,14 @@ header {
     padding-bottom: 8rem;
 }
 
+.card p {
+    font-size: 0.9375rem;
+}
+
 .img-card {
     position: absolute;
     bottom: 2.5rem;
     right: 2rem;
-}
-
-.card-p {
-    font-size: 0.9375rem;
 }
 
 .teambuilder-karma {
@@ -93,7 +96,6 @@ header {
     flex-direction: column;
     gap: 2rem;
 }
-
 
 .supervisor {
     border-top: 4px solid hsl(180, 62%, 55%);
@@ -109,13 +111,4 @@ header {
 
 .calculator {
     border-top: 4px solid hsl(212, 86%, 64%);
-}
-
-@media screen and (max-width: 780px) {
-    .card-container {
-        flex-direction: column;
-    }
-    body {
-        padding: 2rem;
-    }
 }
